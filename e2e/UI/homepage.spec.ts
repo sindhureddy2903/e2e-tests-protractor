@@ -8,6 +8,8 @@ describe('Google Home Page', () => {
         homePage.navigateToHomepage();
     });
 
-    it('Just a demo test', () => {
+    it('logo is displayed', () => {
+        var element = browser.driver.findElement(by.className('logo'));
+        expect(element.isDisplayed()).toBe(true);
     });
 });

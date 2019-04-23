@@ -9,7 +9,7 @@ exports.config = {
         },
    // seleniumAddress: 'http://localhost:4444/wd/hub/',
     directConnect: true,
-    baseUrl: 'https://google.com/',
+    baseUrl: 'http://www.way2automation.com/protractor-angularjs-practice-website.html',
     framework: 'jasmine2',
     rootElement: 'body',
     jasmineNodeOpts: {
