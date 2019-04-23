@@ -5,7 +5,10 @@ exports.config = {
     ],
     capabilities:
         {
-            'browserName': 'chrome'
+            'browserName': 'chrome',
+             chromeOptions: {
+                 args: ["--headless", "--disable-gpu", "--window-size=800x600"]
+             }
         },
    // seleniumAddress: 'http://localhost:4444/wd/hub/',
     directConnect: true,
